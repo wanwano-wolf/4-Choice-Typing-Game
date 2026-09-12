@@ -1,0 +1,494 @@
+[{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "核などの細胞小器官を膜で包んで持つ細胞を何というか。",
+  "reading": "かくなどのさいぼうしょうきかんをまくでつつんでもつさいぼうをなんというか",
+  "choices": [
+    { "display": "真核細胞", "reading": "しんかくさいぼう" },
+    { "display": "原核細胞", "reading": "げんかくさいぼう" },
+    { "display": "体細胞", "reading": "たいさいぼう" },
+    { "display": "生殖細胞", "reading": "せいしょくさいぼう" }
+  ],
+  "answer": "しんかくさいぼう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "DNAがとる、2本の鎖がねじれ合った構造を何というか。",
+  "reading": "でぃーえぬえーがとるにほんのくさりがねじれあったこうぞうをなんというか",
+  "choices": [
+    { "display": "二重らせん構造", "reading": "にじゅうらせんこうぞう" },
+    { "display": "単鎖構造", "reading": "たんさこうぞう" },
+    { "display": "立体構造", "reading": "りったいこうぞう" },
+    { "display": "三重らせん構造", "reading": "さんじゅうらせんこうぞう" }
+  ],
+  "answer": "にじゅうらせんこうぞう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "DNAの塩基配列がRNAに写し取られる過程を何というか。",
+  "reading": "でぃーえぬえーのえんきはいれつがあーるえぬえーにうつしとられるかていをなんというか",
+  "choices": [
+    { "display": "転写", "reading": "てんしゃ" },
+    { "display": "翻訳", "reading": "ほんやく" },
+    { "display": "複製", "reading": "ふくせい" },
+    { "display": "スプライシング", "reading": "すぷらいしんぐ" }
+  ],
+  "answer": "てんしゃ"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "mRNAの情報をもとにタンパク質が合成される過程を何というか。",
+  "reading": "えむあーるえぬえーのじょうほうをもとにたんぱくしつがごうせいされるかていをなんというか",
+  "choices": [
+    { "display": "翻訳", "reading": "ほんやく" },
+    { "display": "転写", "reading": "てんしゃ" },
+    { "display": "複製", "reading": "ふくせい" },
+    { "display": "突然変異", "reading": "とつぜんへんい" }
+  ],
+  "answer": "ほんやく"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "酵素のはたらきが最も活発になる温度を何というか。",
+  "reading": "こうそのはたらきがもっともかっぱつになるおんどをなんというか",
+  "choices": [
+    { "display": "最適温度", "reading": "さいてきおんど" },
+    { "display": "至適pH", "reading": "してきぴーえいち" },
+    { "display": "変性温度", "reading": "へんせいおんど" },
+    { "display": "活性化エネルギー", "reading": "かっせいかえねるぎー" }
+  ],
+  "answer": "さいてきおんど"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "細胞内で有機物を分解し、ATPを取り出すはたらきを何というか。",
+  "reading": "さいぼうないでゆうきぶつをぶんかいしえいてぃーぴーをとりだすはたらきをなんというか",
+  "choices": [
+    { "display": "呼吸", "reading": "こきゅう" },
+    { "display": "光合成", "reading": "こうごうせい" },
+    { "display": "発酵", "reading": "はっこう" },
+    { "display": "同化", "reading": "どうか" }
+  ],
+  "answer": "こきゅう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "植物が光エネルギーを使い、二酸化炭素と水から有機物をつくるはたらきを何というか。",
+  "reading": "しょくぶつがひかりえねるぎーをつかいにさんかたんそとみずからゆうきぶつをつくるはたらきをなんというか",
+  "choices": [
+    { "display": "光合成", "reading": "こうごうせい" },
+    { "display": "呼吸", "reading": "こきゅう" },
+    { "display": "化学合成", "reading": "かがくごうせい" },
+    { "display": "蒸散", "reading": "じょうさん" }
+  ],
+  "answer": "こうごうせい"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "体内の状態を一定に保とうとするはたらきを何というか。",
+  "reading": "たいないのじょうたいをいっていにたもとうとするはたらきをなんというか",
+  "choices": [
+    { "display": "恒常性", "reading": "こうじょうせい" },
+    { "display": "適応", "reading": "てきおう" },
+    { "display": "代謝", "reading": "たいしゃ" },
+    { "display": "免疫", "reading": "めんえき" }
+  ],
+  "answer": "こうじょうせい"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "血糖濃度を下げるはたらきをもつホルモンは何か。",
+  "reading": "けっとうのうどをさげるはたらきをもつほるもんはなにか",
+  "choices": [
+    { "display": "インスリン", "reading": "いんすりん" },
+    { "display": "グルカゴン", "reading": "ぐるかごん" },
+    { "display": "アドレナリン", "reading": "あどれなりん" },
+    { "display": "チロキシン", "reading": "ちろきしん" }
+  ],
+  "answer": "いんすりん"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "生物基礎",
+  "display": "血糖濃度を上げるはたらきをもつすい臓のホルモンは何か。",
+  "reading": "けっとうのうどをあげるはたらきをもつすいぞうのほるもんはなにか",
+  "choices": [
+    { "display": "グルカゴン", "reading": "ぐるかごん" },
+    { "display": "インスリン", "reading": "いんすりん" },
+    { "display": "成長ホルモン", "reading": "せいちょうほるもん" },
+    { "display": "アドレナリン", "reading": "あどれなりん" }
+  ],
+  "answer": "ぐるかごん"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "原子の中心にあり、陽子と中性子からなる部分を何というか。",
+  "reading": "げんしのちゅうしんにありようしとちゅうせいしからなるぶぶんをなんというか",
+  "choices": [
+    { "display": "原子核", "reading": "げんしかく" },
+    { "display": "電子殻", "reading": "でんしかく" },
+    { "display": "価電子", "reading": "かでんし" },
+    { "display": "同位体", "reading": "どういたい" }
+  ],
+  "answer": "げんしかく"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "陽子の数は同じで中性子の数が異なる原子どうしを何というか。",
+  "reading": "ようしのかずはおなじでちゅうせいしのかずがことなるげんしどうしをなんというか",
+  "choices": [
+    { "display": "同位体", "reading": "どういたい" },
+    { "display": "同素体", "reading": "どうそたい" },
+    { "display": "同族体", "reading": "どうぞくたい" },
+    { "display": "異性体", "reading": "いせいたい" }
+  ],
+  "answer": "どういたい"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "同じ元素からできているが性質が異なる単体どうしを何というか。",
+  "reading": "おなじげんそからできているがせいしつがことなるたんたいどうしをなんというか",
+  "choices": [
+    { "display": "同素体", "reading": "どうそたい" },
+    { "display": "同位体", "reading": "どういたい" },
+    { "display": "化合物", "reading": "かごうぶつ" },
+    { "display": "混合物", "reading": "こんごうぶつ" }
+  ],
+  "answer": "どうそたい"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "原子が電子を放出したり受け取ったりしてできる粒子を何というか。",
+  "reading": "げんしがでんしをほうしゅつしたりうけとったりしてできるりゅうしをなんというか",
+  "choices": [
+    { "display": "イオン", "reading": "いおん" },
+    { "display": "分子", "reading": "ぶんし" },
+    { "display": "原子核", "reading": "げんしかく" },
+    { "display": "同位体", "reading": "どういたい" }
+  ],
+  "answer": "いおん"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "陽イオンと陰イオンが静電気的な力で結びつく結合を何というか。",
+  "reading": "よういおんといんいおんがせいでんきてきなちからでむすびつくけつごうをなんというか",
+  "choices": [
+    { "display": "イオン結合", "reading": "いおんけつごう" },
+    { "display": "共有結合", "reading": "きょうゆうけつごう" },
+    { "display": "金属結合", "reading": "きんぞくけつごう" },
+    { "display": "水素結合", "reading": "すいそけつごう" }
+  ],
+  "answer": "いおんけつごう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "原子どうしが電子を共有して結びつく結合を何というか。",
+  "reading": "げんしどうしがでんしをきょうゆうしてむすびつくけつごうをなんというか",
+  "choices": [
+    { "display": "共有結合", "reading": "きょうゆうけつごう" },
+    { "display": "イオン結合", "reading": "いおんけつごう" },
+    { "display": "金属結合", "reading": "きんぞくけつごう" },
+    { "display": "配位結合", "reading": "はいいけつごう" }
+  ],
+  "answer": "きょうゆうけつごう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "自由電子によって金属原子どうしが結びつく結合を何というか。",
+  "reading": "じゆうでんしによってきんぞくげんしどうしがむすびつくけつごうをなんというか",
+  "choices": [
+    { "display": "金属結合", "reading": "きんぞくけつごう" },
+    { "display": "共有結合", "reading": "きょうゆうけつごう" },
+    { "display": "イオン結合", "reading": "いおんけつごう" },
+    { "display": "分子間力", "reading": "ぶんしかんりょく" }
+  ],
+  "answer": "きんぞくけつごう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "1molの物質に含まれる粒子の数を表す定数を何というか。",
+  "reading": "いちもるのぶっしつにふくまれるりゅうしのかずをあらわすていすうをなんというか",
+  "choices": [
+    { "display": "アボガドロ定数", "reading": "あぼがどろていすう" },
+    { "display": "気体定数", "reading": "きたいていすう" },
+    { "display": "モル質量", "reading": "もるしつりょう" },
+    { "display": "原子量", "reading": "げんしりょう" }
+  ],
+  "answer": "あぼがどろていすう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "物質1molあたりの質量を何というか。",
+  "reading": "ぶっしついちもるあたりのしつりょうをなんというか",
+  "choices": [
+    { "display": "モル質量", "reading": "もるしつりょう" },
+    { "display": "原子量", "reading": "げんしりょう" },
+    { "display": "分子量", "reading": "ぶんしりょう" },
+    { "display": "密度", "reading": "みつど" }
+  ],
+  "answer": "もるしつりょう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "酸性やアルカリ性の強さを表す数値を何というか。",
+  "reading": "さんせいやあるかりせいのつよさをあらわすすうちをなんというか",
+  "choices": [
+    { "display": "水素イオン指数", "reading": "すいそいおんしすう" },
+    { "display": "モル濃度", "reading": "もるのうど" },
+    { "display": "酸化数", "reading": "さんかすう" },
+    { "display": "電離度", "reading": "でんりど" }
+  ],
+  "answer": "すいそいおんしすう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "酸と塩基が反応して塩と水ができる反応を何というか。",
+  "reading": "さんとえんきがはんのうしてえんとみずができるはんのうをなんというか",
+  "choices": [
+    { "display": "中和反応", "reading": "ちゅうわはんのう" },
+    { "display": "酸化還元反応", "reading": "さんかかんげんはんのう" },
+    { "display": "電離", "reading": "でんり" },
+    { "display": "沈殿反応", "reading": "ちんでんはんのう" }
+  ],
+  "answer": "ちゅうわはんのう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "物質が電子を失う変化を何というか。",
+  "reading": "ぶっしつがでんしをうしなうへんかをなんというか",
+  "choices": [
+    { "display": "酸化", "reading": "さんか" },
+    { "display": "還元", "reading": "かんげん" },
+    { "display": "中和", "reading": "ちゅうわ" },
+    { "display": "電離", "reading": "でんり" }
+  ],
+  "answer": "さんか"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "物質が電子を受け取る変化を何というか。",
+  "reading": "ぶっしつがでんしをうけとるへんかをなんというか",
+  "choices": [
+    { "display": "還元", "reading": "かんげん" },
+    { "display": "酸化", "reading": "さんか" },
+    { "display": "中和", "reading": "ちゅうわ" },
+    { "display": "電離", "reading": "でんり" }
+  ],
+  "answer": "かんげん"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "溶液1Lに溶けている溶質の物質量を表す濃度を何というか。",
+  "reading": "ようえきいちりっとるにとけているようしつのぶっしつりょうをあらわすのうどをなんというか",
+  "choices": [
+    { "display": "モル濃度", "reading": "もるのうど" },
+    { "display": "質量パーセント濃度", "reading": "しつりょうぱーせんとのうど" },
+    { "display": "密度", "reading": "みつど" },
+    { "display": "電離度", "reading": "でんりど" }
+  ],
+  "answer": "もるのうど"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "化学基礎",
+  "display": "物質が水に溶けて陽イオンと陰イオンに分かれることを何というか。",
+  "reading": "ぶっしつがみずにとけてよういおんといんいおんにわかれることをなんというか",
+  "choices": [
+    { "display": "電離", "reading": "でんり" },
+    { "display": "中和", "reading": "ちゅうわ" },
+    { "display": "溶解", "reading": "ようかい" },
+    { "display": "沈殿", "reading": "ちんでん" }
+  ],
+  "answer": "でんり"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "単位時間あたりの速度の変化の割合を表す量を何というか。",
+  "reading": "たんいじかんあたりのそくどのへんかのわりあいをあらわすりょうをなんというか",
+  "choices": [
+    { "display": "加速度", "reading": "かそくど" },
+    { "display": "速さ", "reading": "はやさ" },
+    { "display": "変位", "reading": "へんい" },
+    { "display": "移動距離", "reading": "いどうきょり" }
+  ],
+  "answer": "かそくど"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "地球上で物体が自由落下するときの加速度を何というか。",
+  "reading": "ちきゅうじょうでぶったいがじゆうらっかするときのかそくどをなんというか",
+  "choices": [
+    { "display": "重力加速度", "reading": "じゅうりょくかそくど" },
+    { "display": "初速度", "reading": "しょそくど" },
+    { "display": "終端速度", "reading": "しゅうたんそくど" },
+    { "display": "角速度", "reading": "かくそくど" }
+  ],
+  "answer": "じゅうりょくかそくど"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "ばねの伸びが加えた力に比例するという法則を何というか。",
+  "reading": "ばねののびがくわえたちからにひれいするというほうそくをなんというか",
+  "choices": [
+    { "display": "フックの法則", "reading": "ふっくのほうそく" },
+    { "display": "慣性の法則", "reading": "かんせいのほうそく" },
+    { "display": "作用反作用の法則", "reading": "さようはんさようのほうそく" },
+    { "display": "オームの法則", "reading": "おーむのほうそく" }
+  ],
+  "answer": "ふっくのほうそく"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "単位面積あたりに垂直にはたらく力の大きさを何というか。",
+  "reading": "たんいめんせきあたりにすいちょくにはたらくちからのおおきさをなんというか",
+  "choices": [
+    { "display": "圧力", "reading": "あつりょく" },
+    { "display": "浮力", "reading": "ふりょく" },
+    { "display": "張力", "reading": "ちょうりょく" },
+    { "display": "摩擦力", "reading": "まさつりょく" }
+  ],
+  "answer": "あつりょく"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "力の大きさと力の向きに動いた距離の積を何というか。",
+  "reading": "ちからのおおきさとちからのむきにうごいたきょりのせきをなんというか",
+  "choices": [
+    { "display": "仕事", "reading": "しごと" },
+    { "display": "熱量", "reading": "ねつりょう" },
+    { "display": "力積", "reading": "りきせき" },
+    { "display": "運動量", "reading": "うんどうりょう" }
+  ],
+  "answer": "しごと"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "運動している物体がもつ、速さと質量で決まるエネルギーを何というか。",
+  "reading": "うんどうしているぶったいがもつはやさとしつりょうできまるえねるぎーをなんというか",
+  "choices": [
+    { "display": "運動エネルギー", "reading": "うんどうえねるぎー" },
+    { "display": "位置エネルギー", "reading": "いちえねるぎー" },
+    { "display": "弾性エネルギー", "reading": "だんせいえねるぎー" },
+    { "display": "熱エネルギー", "reading": "ねつえねるぎー" }
+  ],
+  "answer": "うんどうえねるぎー"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "ばねなどの変形によって蓄えられるエネルギーを何というか。",
+  "reading": "ばねなどのへんけいによってたくわえられるえねるぎーをなんというか",
+  "choices": [
+    { "display": "弾性エネルギー", "reading": "だんせいえねるぎー" },
+    { "display": "運動エネルギー", "reading": "うんどうえねるぎー" },
+    { "display": "位置エネルギー", "reading": "いちえねるぎー" },
+    { "display": "熱エネルギー", "reading": "ねつえねるぎー" }
+  ],
+  "answer": "だんせいえねるぎー"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "マイナス273度を0度とする温度の表し方を何というか。",
+  "reading": "まいなすにひゃくななじゅうさんどをぜろどとするおんどのあらわしかたをなんというか",
+  "choices": [
+    { "display": "絶対温度", "reading": "ぜったいおんど" },
+    { "display": "セ氏温度", "reading": "せしおんど" },
+    { "display": "体感温度", "reading": "たいかんおんど" },
+    { "display": "熱量", "reading": "ねつりょう" }
+  ],
+  "answer": "ぜったいおんど"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "物質を仲立ちとして熱が高温部から低温部へ伝わる現象を何というか。",
+  "reading": "ぶっしつをなかだちとしてねつがこうおんぶからていおんぶへつたわるげんしょうをなんというか",
+  "choices": [
+    { "display": "伝導", "reading": "でんどう" },
+    { "display": "対流", "reading": "たいりゅう" },
+    { "display": "放射", "reading": "ほうしゃ" },
+    { "display": "断熱", "reading": "だんねつ" }
+  ],
+  "answer": "でんどう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "波が1回振動するのにかかる時間を何というか。",
+  "reading": "なみがいっかいしんどうするのにかかるじかんをなんというか",
+  "choices": [
+    { "display": "周期", "reading": "しゅうき" },
+    { "display": "波長", "reading": "はちょう" },
+    { "display": "振幅", "reading": "しんぷく" },
+    { "display": "振動数", "reading": "しんどうすう" }
+  ],
+  "answer": "しゅうき"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "音が伝わるために必要な、振動を伝える物質を何というか。",
+  "reading": "おとがつたわるためにひつようなしんどうをつたえるぶっしつをなんというか",
+  "choices": [
+    { "display": "媒質", "reading": "ばいしつ" },
+    { "display": "波源", "reading": "はげん" },
+    { "display": "音速", "reading": "おんそく" },
+    { "display": "真空", "reading": "しんくう" }
+  ],
+  "answer": "ばいしつ"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "光が物体の表面に当たってはね返る現象を何というか。",
+  "reading": "ひかりがぶったいのひょうめんにあたってはねかえるげんしょうをなんというか",
+  "choices": [
+    { "display": "反射", "reading": "はんしゃ" },
+    { "display": "屈折", "reading": "くっせつ" },
+    { "display": "回折", "reading": "かいせつ" },
+    { "display": "干渉", "reading": "かんしょう" }
+  ],
+  "answer": "はんしゃ"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "1秒間に流れる電気量の大きさを表す量を何というか。",
+  "reading": "いちびょうかんにながれるでんきりょうのおおきさをあらわすりょうをなんというか",
+  "choices": [
+    { "display": "電流", "reading": "でんりゅう" },
+    { "display": "電圧", "reading": "でんあつ" },
+    { "display": "静電気", "reading": "せいでんき" },
+    { "display": "抵抗", "reading": "ていこう" }
+  ],
+  "answer": "でんりゅう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "電流の流れにくさを表す量を何というか。",
+  "reading": "でんりゅうのながれにくさをあらわすりょうをなんというか",
+  "choices": [
+    { "display": "抵抗", "reading": "ていこう" },
+    { "display": "電圧", "reading": "でんあつ" },
+    { "display": "電力", "reading": "でんりょく" },
+    { "display": "磁力", "reading": "じりょく" }
+  ],
+  "answer": "ていこう"
+},
+{
+  "grade": "高校生", "subject": "理科", "unit": "物理基礎",
+  "display": "帯電した物体どうしがおよぼしあう力を求める法則を何というか。",
+  "reading": "たいでんしたぶったいどうしがおよぼしあうちからをもとめるほうそくをなんというか",
+  "choices": [
+    { "display": "クーロンの法則", "reading": "くーろんのほうそく" },
+    { "display": "オームの法則", "reading": "おーむのほうそく" },
+    { "display": "フレミングの法則", "reading": "ふれみんぐのほうそく" },
+    { "display": "フックの法則", "reading": "ふっくのほうそく" }
+  ],
+  "answer": "くーろんのほうそく"
+},
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "地球内部の層構造で、地殻のすぐ下にある層を何というか。", "reading": "ちきゅうないぶのそうこうぞうでちかくのすぐしたにあるそうをなんというか", "choices": [ { "display": "マントル", "reading": "まんとる" }, { "display": "外核", "reading": "がいかく" }, { "display": "内核", "reading": "ないかく" }, { "display": "地殻", "reading": "ちかく" } ], "answer": "まんとる" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "地球の表面をおおう十数枚の硬い板状の岩盤を何というか。", "reading": "ちきゅうのひょうめんをおおうじゅうすうまいのかたいばんじょうのがんばんをなんというか", "choices": [ { "display": "プレート", "reading": "ぷれーと" }, { "display": "マグマ", "reading": "まぐま" }, { "display": "地殻", "reading": "ちかく" }, { "display": "断層", "reading": "だんそう" } ], "answer": "ぷれーと" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "マグマが地表や地表近くで急に冷え固まってできた岩石を何というか。", "reading": "まぐまがちひょうやちひょうちかくできゅうにひえかたまってできたがんせきをなんというか", "choices": [ { "display": "火山岩", "reading": "かざんがん" }, { "display": "深成岩", "reading": "しんせいがん" }, { "display": "堆積岩", "reading": "たいせきがん" }, { "display": "変成岩", "reading": "へんせいがん" } ], "answer": "かざんがん" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "マグマが地下深くでゆっくり冷え固まってできた、大きな結晶が並ぶ岩石を何というか。", "reading": "まぐまがちかふかくでゆっくりひえかたまってできたおおきなけっしょうがならぶがんせきをなんというか", "choices": [ { "display": "深成岩", "reading": "しんせいがん" }, { "display": "火山岩", "reading": "かざんがん" }, { "display": "堆積岩", "reading": "たいせきがん" }, { "display": "火砕岩", "reading": "かさいがん" } ], "answer": "しんせいがん" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "れき・砂・泥などが堆積し、固まってできた岩石を何というか。", "reading": "れきすなどろなどがたいせきしかたまってできたがんせきをなんというか", "choices": [ { "display": "堆積岩", "reading": "たいせきがん" }, { "display": "火成岩", "reading": "かせいがん" }, { "display": "変成岩", "reading": "へんせいがん" }, { "display": "深成岩", "reading": "しんせいがん" } ], "answer": "たいせきがん" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "地震のゆれの規模の大きさを表す数値を何というか。", "reading": "じしんのゆれのきぼのおおきさをあらわすすうちをなんというか", "choices": [ { "display": "マグニチュード", "reading": "まぐにちゅーど" }, { "display": "震度", "reading": "しんど" }, { "display": "初期微動", "reading": "しょきびどう" }, { "display": "震源", "reading": "しんげん" } ], "answer": "まぐにちゅーど" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "地震が発生した地下の場所を何というか。", "reading": "じしんがはっせいしたちかのばしょをなんというか", "choices": [ { "display": "震源", "reading": "しんげん" }, { "display": "震央", "reading": "しんおう" }, { "display": "断層", "reading": "だんそう" }, { "display": "震度", "reading": "しんど" } ], "answer": "しんげん" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "地表から高度約11キロメートルまでの、雲や雨など気象現象が起こる層を何というか。", "reading": "ちひょうからこうどやくじゅういちきろめーとるまでのくもやあめなどきしょうげんしょうがおこるそうをなんというか", "choices": [ { "display": "対流圏", "reading": "たいりゅうけん" }, { "display": "成層圏", "reading": "せいそうけん" }, { "display": "中間圏", "reading": "ちゅうかんけん" }, { "display": "熱圏", "reading": "ねつけん" } ], "answer": "たいりゅうけん" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "太陽からの有害な紫外線の大部分を吸収する気体の層を何というか。", "reading": "たいようからのゆうがいなしがいせんのだいぶぶんをきゅうしゅうするきたいのそうをなんというか", "choices": [ { "display": "オゾン層", "reading": "おぞんそう" }, { "display": "電離層", "reading": "でんりそう" }, { "display": "対流圏", "reading": "たいりゅうけん" }, { "display": "成層圏", "reading": "せいそうけん" } ], "answer": "おぞんそう" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "太陽系の中心にあり、みずから光や熱を出している天体を何というか。", "reading": "たいようけいのちゅうしんにありみずからひかりやねつをだしているてんたいをなんというか", "choices": [ { "display": "恒星", "reading": "こうせい" }, { "display": "惑星", "reading": "わくせい" }, { "display": "衛星", "reading": "えいせい" }, { "display": "小惑星", "reading": "しょうわくせい" } ], "answer": "こうせい" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "太陽の周りを公転する、水星や地球などの天体を何というか。", "reading": "たいようのまわりをこうてんするすいせいやちきゅうなどのてんたいをなんというか", "choices": [ { "display": "惑星", "reading": "わくせい" }, { "display": "恒星", "reading": "こうせい" }, { "display": "衛星", "reading": "えいせい" }, { "display": "彗星", "reading": "すいせい" } ], "answer": "わくせい" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "地層が堆積した年代の新旧や環境を推定する手がかりとなる化石を何というか。", "reading": "ちそうがたいせきしたねんだいのしんきゅうやかんきょうをすいていするてがかりとなるかせきをなんというか", "choices": [ { "display": "示準化石", "reading": "しじゅんかせき" }, { "display": "示相化石", "reading": "しそうかせき" }, { "display": "生痕化石", "reading": "せいこんかせき" }, { "display": "微化石", "reading": "びかせき" } ], "answer": "しじゅんかせき" },
+{ "grade": "高校生", "subject": "理科", "unit": "地学基礎", "display": "地層が堆積した当時の環境を推定する手がかりとなる化石を何というか。", "reading": "ちそうがたいせきしたとうじのかんきょうをすいていするてがかりとなるかせきをなんというか", "choices": [ { "display": "示相化石", "reading": "しそうかせき" }, { "display": "示準化石", "reading": "しじゅんかせき" }, { "display": "微化石", "reading": "びかせき" }, { "display": "化石燃料", "reading": "かせきねんりょう" } ], "answer": "しそうかせき" }
+]

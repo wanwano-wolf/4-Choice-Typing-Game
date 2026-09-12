@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>四択タイピング</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="image/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <!-- タイプするたびに降ってくるフルーツの絵（カードの裏を通る演出用） -->
+  <div id="falling-images" aria-hidden="true"></div>
+
+  <main>
+    <!-- メニュー画面（モード → 教科 → 単元）。中身は script.js が作る -->
+    <section id="menu"></section>
+
+    <!-- ゲーム画面 -->
+    <section id="game" hidden>
+      <!-- 残り時間（スコアアタックのみ） -->
+      <p id="timer" class="timer"></p>
+      <!-- お題の文字（漢字など。かなだけのこともある） -->
+      <p id="display" class="display"></p>
+      <!-- お題の読み（ひらがな）。打った分だけ色がつく -->
+      <p id="reading" class="reading"></p>
+      <!-- お題のローマ字。打った分だけ色がつく -->
+      <p id="romaji" class="romaji"></p>
+      <!-- 4つの選択肢（選択肢フェーズだけ表示） -->
+      <div id="choices" class="choices"></div>
+      <!-- ミス数などの情報 -->
+      <p id="info" class="info"></p>
+    </section>
+  </main>
+
+  <!-- ゲーム本体。問題データ（questions.json）はこの中で fetch して読み込む -->
+  <script src="script.js"></script>
+</body>
+</html>

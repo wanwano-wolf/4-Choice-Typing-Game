@@ -1,0 +1,24 @@
+# 問題ファイルについて
+
+問題データは学年・教科ごとに4つの `questions.json` に分かれている。
+
+```
+問題ファイル/
+├── 中学生/
+│   ├── 理科（中学生）/questions.json
+│   └── 社会（中学生）/questions.json
+└── 高校生/
+    ├── 理科（高校生）/questions.json
+    └── 社会（高校生）/questions.json
+```
+
+- ゲーム側（`script.js` の `QUESTION_FILES`）がこの4ファイルを起動時に全部読み込んで合体させる
+- 1ファイルの中に複数の単元（`unit`）が混ざっていてOK。学年・教科メニュー、単元メニューはデータから自動で作られる
+- 新しい学年・教科を増やしたいときは、フォルダと `questions.json`（中身は `[]` でOK）を作り、`script.js` の `QUESTION_FILES` に1行追加する(920~)
+
+各ファイルの中身の書き方・生成のしかたは `../問題づくりプロンプト.md` を参照。
+
+cd ~/Desktop/四択タイピング
+python3 -m http.server
+
+http://localhost:8000/
