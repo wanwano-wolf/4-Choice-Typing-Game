@@ -17,8 +17,3 @@
 - 新しい学年・教科を増やしたいときは、フォルダと `questions.json`（中身は `[]` でOK）を作り、`script.js` の `QUESTION_FILES` に1行追加する(920~)
 
 各ファイルの中身の書き方・生成のしかたは `../問題づくりプロンプト.md` を参照。
-
-cd ~/Desktop/四択タイピング
-python3 -m http.server
-
-http://localhost:8000/

@@ -291,7 +291,7 @@ const CORRECT_BONUS = 50;          // 問題を1問正解したときのボー�
 const LAP_BONUS = 300;             // 全問を1周し切ったときのボーナス（正解ボーナスより大きく）
 const BASE_TYPE_POINT = 1;         // タイプ1回の基本点
 const TYPES_PER_LEVEL = 10;        // 連続成功が何回ごとに「タイプ1回の点」が +1 されるか
-const TIME_LIMIT = 60;             // スコアアタックの制限時間（秒）
+const TIME_LIMIT = 180;             // スコアアタックの制限時間（秒）
 
 // これまでの連続正解数に応じた倍率
 function comboMultiplier() {
