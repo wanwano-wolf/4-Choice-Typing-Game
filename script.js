@@ -31,7 +31,27 @@ const ROMAJI_TABLE = {
   "じゃ":["ja","zya"],"じゅ":["ju","zyu"],"じょ":["jo","zyo"],
   "びゃ":"bya","びゅ":"byu","びょ":"byo",
   "ぴゃ":"pya","ぴゅ":"pyu","ぴょ":"pyo",
-  "ー":"-"
+  "ー":"-",
+
+  // 小さい母音（外来語などに使う）。単独で出てきたとき用のフォールバック
+  "ぁ":["la","xa"],"ぃ":["li","xi"],"ぅ":["lu","xu"],"ぇ":["le","xe"],"ぉ":["lo","xo"],"ゎ":["lwa","xwa"],"ゃ":["lya","xya"],"ゅ":["lyu","xyu"],"ょ":["lyo","xyo"],
+  // 小さい母音との組み合わせ（外来語表記でよく使う2文字のかたまり）
+  "うぃ":"wi","うぇ":"we","うぉ":"wo",
+  "ゔ":"vu","ゔぁ":"va","ゔぃ":"vi","ゔぇ":"ve","ゔぉ":"vo",
+  "しぇ":"she","じぇ":"je","ちぇ":"che",
+  "つぁ":"tsa","つぃ":"tsi","つぇ":"tse","つぉ":"tso",
+  "てぃ":["ti","thi"],"でぃ":["di","dhi"],"てゅ":"tyu","でゅ":"dyu",
+  "とぅ":"twu","どぅ":"dwu",
+  "ふぁ":"fa","ふぃ":"fi","ふぇ":"fe","ふぉ":"fo","ふゅ":"fyu",
+  "くぁ":["qa","kwa"],"くぃ":["qi","kwi"],"くぇ":["qe","kwe"],"くぉ":["qo","kwo"],
+  "ぐぁ":"gwa",
+
+  "1":"1","2":"2","3":"3","4":"4","5":"5","6":"6","7":"7","8":"8","9":"9","0":"0",
+
+  // 大文字は表示（kana）としては大文字のまま、打つときは小文字でいいように変換先は小文字にする
+  // （キー入力は常に小文字化して照合する仕組みなので、変換先を大文字にすると一致しなくなる）
+  "A":"a","B":"b","C":"c","D":"d","E":"e","F":"f","G":"g","H":"h","I":"i","J":"j","K":"k","L":"l","M":"m","N":"n","O":"o","P":"p","Q":"q","R":"r","S":"s","T":"t","U":"u","V":"v","W":"w","X":"x","Y":"y","Z":"z",
+  "a":"a","b":"b","c":"c","d":"d","e":"e","f":"f","g":"g","h":"h","i":"i","j":"j","k":"k","l":"l","m":"m","n":"n","o":"o","p":"p","q":"q","r":"r","s":"s","t":"t","u":"u","v":"v","w":"w","x":"x","y":"y","z":"z",
 };
 
 const VOWELS = ["a", "i", "u", "e", "o"];
@@ -517,11 +537,11 @@ function showHome() {
   }));
   items.push({
     key: String(grades.length + 1),
-    label: "ぜんぶ",
+    label: "全て",
     sub: `${QUESTIONS.length}問`,
     onPick: () => chooseGrade(null),
   });
-  showMenu("四択タイピング｜難易度を えらぶ", items, null);
+  showMenu("四択タイピング｜難易度を選ぶ", items, null);
 }
 
 // 2枚目：教科えらび（理科・社会のみ）
@@ -537,11 +557,11 @@ function chooseGrade(g) {
   }));
   items.push({
     key: String(subjects.length + 1),
-    label: "理科・社会ぜんぶからランダム",
+    label: "理科・社会からランダム",
     sub: `${pool.length}問　${bestLabel(g, null, null)}`,
     onPick: () => { selectedSubject = null; selectedUnit = null; beginGame(); },
   });
-  showMenu(`${g || "ぜんぶ"}｜きょうかを えらぶ`, items, showHome);
+  showMenu(`${g || "全て"}｜教科を選ぶ`, items, showHome);
 }
 
 // 3枚目：単元えらび
@@ -565,11 +585,11 @@ function chooseSubject(s) {
   }));
   items.push({
     key: String(units.length + 1),
-    label: `${s} ぜんぶ`,
+    label: `${s} 全て`,
     sub: `${pool.length}問　${bestLabel(selectedGrade, s, null)}`,
     onPick: () => { selectedUnit = null; beginGame(); },
   });
-  showMenu(`${s}：たんげんを えらぶ`, items, () => chooseGrade(selectedGrade));
+  showMenu(`${s}：単元を選ぶ`, items, () => chooseGrade(selectedGrade));
 }
 
 // ゲームのカウンターを全部リセット
@@ -609,7 +629,8 @@ function loadQuestion(pos) {
   question = QUESTIONS[order[pos]];
   phase = "question";
   qMatcher = createMatcher(question.reading);
-  choiceList = (question.choices || []).map(normalizeChoice);
+  // 選択肢の並び順をシャッフル（questions.json 側で正解が1番目に偏っていても、表示ではバラす）
+  choiceList = shuffled((question.choices || []).map(normalizeChoice));
   cMatchers = choiceList.map(c => createMatcher(c.reading));
   answeredIndex = -1;
   answeredCorrect = false;
@@ -627,7 +648,7 @@ function render() {
 
   // --- 終了画面（時間切れ or 全問おわり） ---
   if (phase === "timeup" || phase === "finished") {
-    displayEl.textContent = (phase === "timeup") ? "タイムアップ！" : "おわり！";
+    displayEl.textContent = (phase === "timeup") ? "タイムアップ！" : "お疲れ様！";
     readingEl.textContent = "";
     romajiEl.textContent = "";
     choicesEl.innerHTML = "";
@@ -932,7 +953,7 @@ function sanitizeQuestions() {
 //  questions.json のチェック（おかしい問題を Console に警告）
 // =============================================
 function validateQuestions() {
-  const kanaOnly = /^[ぁ-ゖー]+$/;   // ひらがな＋長音のみ
+  const kanaOnly = /^[ぁ-ゖーA-Za-z0-9]+$/;   // ひらがな＋長音＋アルファベット・数字（EU・GISなどそのまま打つ用）
   const problems = [];
 
   QUESTIONS.forEach((q, i) => {
